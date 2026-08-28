@@ -3,33 +3,28 @@ import java.util.*;
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
-        int[] result = new int[nums1.length];
+        Stack<Integer> stack = new Stack<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < nums1.length; i++) {
+        // Find next greater element for every number in nums2
+        for (int num : nums2) {
 
-            int current = nums1[i];
-            int greater = -1;
-
-
-            for (int j = 0; j < nums2.length; j++) {
-
-                if (nums2[j] == current) {
-
-                    for (int k = j + 1; k < nums2.length; k++) {
-
-                        if (nums2[k] > current) {
-                            greater = nums2[k];
-                            break;
-                        }
-                    }
-
-                    break;
-                }
+            // If current number is greater than stack top,
+            // it is the next greater element
+            while (!stack.isEmpty() && num > stack.peek()) {
+                map.put(stack.pop(), num);
             }
 
-            result[i] = greater;
+            stack.push(num);
         }
 
-        return result;
+        // Create answer for nums1
+        int[] answer = new int[nums1.length];
+
+        for (int i = 0; i < nums1.length; i++) {
+            answer[i] = map.getOrDefault(nums1[i], -1);
+        }
+
+        return answer;
     }
 }
