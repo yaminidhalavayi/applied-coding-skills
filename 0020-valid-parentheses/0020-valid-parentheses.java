@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Stack;
 
 class Solution {
     public boolean isValid(String s) {
@@ -7,11 +7,15 @@ class Solution {
 
         for (char ch : s.toCharArray()) {
 
+            // Opening brackets
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
-            } 
+            }
+
+            // Closing brackets
             else {
 
+                // No matching opening bracket
                 if (stack.isEmpty()) {
                     return false;
                 }
@@ -32,7 +36,7 @@ class Solution {
             }
         }
 
+        // Stack should be empty
         return stack.isEmpty();
-            }
-
+    }
 }
