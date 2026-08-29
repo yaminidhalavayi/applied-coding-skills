@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1154-day-of-the-year](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/1154-day-of-the-year) |
+| [1185-day-of-the-week](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/1185-day-of-the-week) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 ## Prefix Sum
 |  |
