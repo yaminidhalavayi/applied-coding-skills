@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0179-largest-number](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0179-largest-number) |
 | [0239-sliding-window-maximum](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0283-move-zeroes) |
 | [0496-next-greater-element-i](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0496-next-greater-element-i) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0075-sort-colors) |
+| [0179-largest-number](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0179-largest-number) |
 ## Quicksort
 |  |
 | ------- |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0020-valid-parentheses) |
+| [0179-largest-number](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0179-largest-number) |
 | [0344-reverse-string](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0387-first-unique-character-in-a-string) |
 | [1154-day-of-the-year](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/1154-day-of-the-year) |
@@ -180,4 +183,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+## Greedy
+|  |
+| ------- |
+| [0179-largest-number](https://github.com/yaminidhalavayi/applied-coding-skills/tree/master/0179-largest-number) |
 <!---LeetCode Topics End-->
